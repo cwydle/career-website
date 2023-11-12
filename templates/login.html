@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Visitor Registration</title>
+    <title>Login</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -21,21 +21,23 @@
         <div class="col-12 col-md-8 col-lg-6 col-xl-5">
           <div class="card shadow-2-strong" style="border-radius: 1rem;">
             <div class="card-body p-5 text-center">
+              <h3 class="mb-3">Existing Visitor</h3>
+              <div class="form-outline mb-4">
 
-              <h3 class="mb-3">Visitor Registration</h3>
-              <h4 class="fst-italic mb-4">Click one to proceed to check in</h4>
-              <div class="form-outline mb-4 d-grid gap-2 col-6 mx-auto">
-                <button type="button" class="btn btn-primary btn-lg btn btn-success" type="submit" a href="newvisitor.html">New Visitor</button>
-              </div>
+                <div class="form-outline mb-4">
+                  <input type="phone" id="typePhoneX-2" class="form-control form-control-lg" />
+                  <label class="form-label" for="typePhoneX-2">Phone Number</label>
+                </div>
 
-              <div class="form-outline mb-4 d-grid gap-2 col-6 mx-auto">
-                <button type="button" class="btn btn-primary btn-lg btn btn-success text-nowrap" type="submit">Existing Visitor</button>
-              </div>
-              <hr class="my-4">
-
-              <button class="btn btn-lg btn-block btn-primary" style="background-color: #dd4b39;"
-                type="submit"><i class="center-text"></i> Contact Us</button>
-              <a href="https://google.com" class="btn btn-primary">Go to Google</a>
+                <div class="form-outline mb-4">
+                  <input type="date" id="typeDateX-2" class="form-control form-control-lg" />
+                  <label class="form-label" for="typeDateX-2">Date of Birth</label>
+                </div>
+            
+                <div class="form-outline mb-4 d-grid gap-2 col-6 mx-auto">
+                  <button type="button" class="btn btn-primary btn-lg btn text-nowrap" type="submit">Login</button>
+                  <button class="btn btn-primary btn-lg btn-block btn-danger" type="submit">Go Back</button>
+                </div>
             </div>
           </div>
         </div>
