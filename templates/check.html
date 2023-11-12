@@ -10,12 +10,14 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 18%;
+    margin-bottom: 10px;
   }
 </style>
   </head>
   <section class="vh-100" style="background-color: #702c4c;">
-    <img id ="banner" src="https://career-website.cwydle.repl.co/static/banner2.png">
+    <div style="height:60px">
+      <img id ="banner" src="https://career-website.cwydle.repl.co/static/banner2.png">
+    </div>
     <div class="container py-5 h-73">
       <div class="row d-flex justify-content-center align-items-center h-100">
         <div class="col-12 col-md-8 col-lg-6 col-xl-5">
@@ -31,8 +33,7 @@
                 <button type="button" class="btn btn-primary btn-lg btn btn-success text-nowrap" type="submit">Check out</button>
               </div>
               <hr class="my-4">
-
-              <button class="btn btn-primary btn-lg btn-block btn-danger" type="submit">Go Back</button>
+              <a href ="{{url_for('index')}}" type="button"class="btn btn-primary btn-lg btn-block btn-danger">Go Back</a>
             </div>
           </div>
         </div>

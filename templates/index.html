@@ -25,17 +25,16 @@
               <h3 class="mb-3">Visitor Registration</h3>
               <h4 class="fst-italic mb-4">Click one to proceed to check in</h4>
               <div class="form-outline mb-4 d-grid gap-2 col-6 mx-auto">
-                <button type="button" class="btn btn-primary btn-lg btn btn-success" type="submit" a href="newvisitor.html">New Visitor</button>
+                <a href ="{{url_for('register')}}" type="button" class="btn btn-primary btn-lg btn btn-success" type="submit" a href="newvisitor.html">New Visitor</a>
               </div>
 
               <div class="form-outline mb-4 d-grid gap-2 col-6 mx-auto">
-                <button type="button" class="btn btn-primary btn-lg btn btn-success text-nowrap" type="submit">Existing Visitor</button>
+                <a href ="{{url_for('login')}}" type="button" class="btn btn-primary btn-lg btn btn-success text-nowrap" type="submit">Existing Visitor</a>
               </div>
               <hr class="my-4">
 
               <button class="btn btn-lg btn-block btn-primary" style="background-color: #dd4b39;"
                 type="submit"><i class="center-text"></i> Contact Us</button>
-              <a href="https://google.com" class="btn btn-primary">Go to Google</a>
             </div>
           </div>
         </div>
